@@ -1,5 +1,5 @@
 # AnyBar_rb
-Simple ruby wrapper for [AnyBar.app](https://github.com/tonsky/AnyBar)
+Simple ruby wrapper for [AnyBar](https://github.com/tonsky/AnyBar)
 
 ## Installation
 **You must have AnyBar installed and running**
@@ -35,11 +35,6 @@ $ any_bar red port
 ```
 
 _**By default `port` equal `1738`**_
-
-## Development
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 1. Fork it ( https://github.com/davydovanton/AnyBar_rb/fork )
