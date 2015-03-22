@@ -1,3 +1,3 @@
-module AnyBarRb
+module AnyBar
   VERSION = "0.1.0"
 end

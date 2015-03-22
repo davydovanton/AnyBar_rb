@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'any_bar'
+
+AnyBar::Client.new(ARGV[1]).color = ARGV[0]
