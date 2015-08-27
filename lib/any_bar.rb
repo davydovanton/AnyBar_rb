@@ -18,5 +18,9 @@ module AnyBar
       any_bar.send @color, 0
       any_bar.close
     end
+
+    def quit
+      self.color = 'quit'
+    end
   end
 end
