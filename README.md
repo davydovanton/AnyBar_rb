@@ -4,7 +4,7 @@ Simple ruby wrapper for [AnyBar](https://github.com/tonsky/AnyBar)
 ## Installation
 **You must have AnyBar installed and running**
 
-Add this line to your application's Gemfile:
+Add this line to application's Gemfile:
 
 ```ruby
 gem 'any_bar'
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 ### Application
-You can change bar color from your app using this syntax:
+Change anybar color from app using this syntax:
 
 ``` ruby
 any_bar = AnyBar::Client.new(port)
@@ -29,12 +29,12 @@ any_bar.color # => 'red'
 ```
 
 ### Console
-Change your AnyBar color:
+Change AnyBar color:
 ``` 
-$ any_bar red port
+$ any_bar red <port>
 ```
 
-_**By default `port` equal `1738`**_
+_**By default `<port>` value is equal `1738`**_
 
 ## Contributing
 1. Fork it ( https://github.com/davydovanton/AnyBar_rb/fork )
